@@ -40,7 +40,7 @@ p {
 }
 
 .colorName:hover {
-  background-color: #1b0e1b;
+  background-color: #312a30;
   font-weight: bold;
 }
 
@@ -55,7 +55,7 @@ p {
 
 .footer {
   color: #f1cbcd;
-  background-color: #1b0e1b;
+  background-color: #312a30;
   text-align: center;
   margin: 10px;
   padding: 1%;
@@ -75,7 +75,7 @@ p {
 
 .loading {
   color: white;
-  background-color: #1b0e1b;
+  background-color: #312a30;
   animation-name: colorChange;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -94,7 +94,7 @@ p {
 
 .navBar {
   color: #f1cbcd;
-  background-color: #0e070d;
+  background-color: #312a30;
 }
 
 .navBar a {
@@ -156,7 +156,7 @@ p {
 
 @keyframes colorChange {
   from {
-    color: #1b0e1b;
+    color: #312a30;
     background-color: #0e070d;
   }
   to {
