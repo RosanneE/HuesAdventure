@@ -21,7 +21,7 @@ h1 {
   font-size: 50px;
   font-family: 'Limelight', cursive;
   padding: 20px;
-  background-color: #b99294;
+  background-color:  #f1cbcd;
   color: 0e070d;
 }
 
@@ -88,14 +88,14 @@ p {
 }
 
 .navBar {
-  color: #b99294;
+  color:  #f1cbcd;
   background-color: #0e070d;
 }
 
 .navBar a {
   font-size: 30px;
   font-weight: bold;
-  color: #b99294;
+  color:  #f1cbcd;
 }
 .ogSwatch {
   /* text-align: center; */
