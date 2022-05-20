@@ -109,6 +109,10 @@ p {
   align-items: center;
 }
 
+.pic{
+  max-width: 500px;
+}
+
 .searchBar {
   display: inline-flex;
 }
