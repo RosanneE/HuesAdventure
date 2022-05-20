@@ -5,52 +5,53 @@ a:active {
   text-decoration: none;
 }
 
+/* *{
+  border: 1px solid #231f20;
+} */
+
 body {
   margin: 20px;
   padding: 20px;
-  background-color: #eacdc7;
+  background-color: #d7eae5;
   display: flex;
 }
 
 h1 {
   text-align: center;
   font-size: 50px;
-  font-family:'Oleo Script', cursive;
-  margin: 20px;
+  font-family: 'Limelight', cursive;
   padding: 20px;
-  background-color: #fcc006;
-  color: #3e4f47;
+  background-color: #b99294;
+  color: 0e070d;
 }
 
-p{
+ul {
+  list-style-type: none;
+
+}
+
+p {
   text-align: center;
   font-size: 20px;
 }
 
-/* .App {
-  color: black;
-  text-align: center;
-  display: flex;
-} */
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.colorChangeClick {
+  background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
+.colorName {
+  font-size: 30px;
+  padding: 2px;
+}
 
 .colorName:hover {
-  background-color: #231f20;
+  background-color: #1b0e1b;
+  font-weight: bold;
+
+}
+
+.colorPage{
+  padding: 10px;
 }
 
 .colorSquare {
@@ -58,17 +59,10 @@ p{
   width: 50px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.colorChangeClick {
-  background-color: white;
-}
-
 .intro {
-  margin: 0px, 50px,;
-  padding: 0px, 50px;
+  max-width: 500px;
+  margin: 0px auto;
+
   font-weight: bold;
 }
 
@@ -80,6 +74,11 @@ p{
   animation-iteration-count: infinite;
 }
 
+.main {
+  /* margin: 0, auto ; */
+  text-align: center;
+}
+
 .nav {
   margin: 10px;
   padding: 1%;
@@ -89,14 +88,24 @@ p{
 }
 
 .navBar {
-  color: #e48d83;
-  background-color: #3e4f47;
+  color: #b99294;
+  background-color: #0e070d;
 }
 
 .navBar a {
   font-size: 30px;
   font-weight: bold;
-  color: #e48d83;
+  color: #b99294;
+}
+.ogSwatch {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+  position: relative
 }
 
 .swatch {
@@ -108,10 +117,13 @@ p{
   padding: 50px;
   margin: 20px;
   display: inline-flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .swatch h3:hover {
-  color: black;
+  color: #0e070d;
+  width: 40px;
 }
 
 .swatchTwo {
@@ -119,7 +131,14 @@ p{
   height: 50px;
   width: 50px;
   padding: 50px;
-  margin: 50px
+  margin: 50px;
+  filter: grayscale(0%);
+
+}
+
+.variations {
+  display: inline-flex;
+  text-align: center;
 }
 
 @keyframes colorChange {
