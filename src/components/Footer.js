@@ -1,9 +1,7 @@
-//imports
-
 function Footer() {
     return (
-        <nav className='nav'>
-            <h1>Footer</h1>
+        <nav className='footer'>
+            <h3 className="footerText">Developed by Rosanne Anderson: 2022  </h3>
         </nav>
     )
 }

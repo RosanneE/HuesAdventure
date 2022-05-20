@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 //displays tint and tone variations on the original color
 const TintTone = ({ item }) => {
       let [r, setR] = useState(item.rgb.r)

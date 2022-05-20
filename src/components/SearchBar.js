@@ -1,13 +1,13 @@
-//imports
 
-//Loading Animation (used in Color and ColorsList)
+
+//Dynamic Search Bar
 const SearchBar = ({searchTerm, updateSearch}) => {
 
     return (
         <div className="searchBar">
         <form>
-            <label>Search by Color Name: </label>
-            <input
+            <h3 className="searchBarText">Search by Color Name: </h3>
+            <input className="inputBar"
                 placeholder="Search Here"
                 value={searchTerm}
                 onChange={updateSearch}

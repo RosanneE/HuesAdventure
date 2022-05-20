@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 
-//displays variations on the original color
+//displays inverse of original color
 const Invert = ({ item }) => {
 
     const [filter, setFilter] = useState("0%");
